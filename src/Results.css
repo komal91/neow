@@ -1,0 +1,31 @@
+.results{
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    font-style: italic;
+}
+.results__box{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(128, 191, 228);
+    padding: .5em;
+    height: 40vh;
+    overflow: auto;
+}
+.results__box__div{
+    padding: .2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.results__box__div div{
+    /* width: 45%; */
+    text-align: left;
+}
+#link{
+    /* width: 10%; */
+    text-align: right;
+}
+.results__box__div:nth-child(odd){
+    background-color: rgb(207, 216, 218);
+}

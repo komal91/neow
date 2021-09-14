@@ -1,0 +1,30 @@
+.searchForm{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    color: rgb(11, 31, 124);
+}
+.searchForm form input[type=date]{
+    margin-top: 1em;
+    margin-right: 1em;
+    font-size: .8em;
+    color: rgb(11, 31, 124);
+}
+.searchForm form input[type=submit]{
+    display: inline;
+    margin: 2em auto;
+    padding: .4em .7em;
+    border-radius: 24px;
+    color: rgb(11, 31, 124);
+    background-color: rgb(235, 238, 239);
+    border: solid 2px rgba(235, 238, 239, 0);
+    font-style: italic;
+
+}
+.searchForm form input[type=submit]:hover{
+    cursor: pointer;
+    background-color: rgb(194, 219, 227);
+    border: solid 2px rgb(235, 238, 239);
+}
